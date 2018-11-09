@@ -6,4 +6,83 @@
     android:layout_height="match_parent"
     tools:context=".FormulaireActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Vos informations"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="Votre nom"
+            android:autofillHints="Votre nom"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prénom" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="Votre prénom"
+            android:autofillHints="Votre prénom"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mail" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Votre adresse mail"
+            android:autofillHints="Votre mail"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Code postal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Votre code postal"
+            android:autofillHints="Votre code postal"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="J'accepte de recevoir des nouvelles de l'Observatorie Océanographique de Banyuls sur mon adresse mail"/>
+
+        <Button
+            android:id="@+id/buttonValiderFormulaire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            android:gravity="center_horizontal" />
+
+
+
+
+    </LinearLayout>
+
+
+
 </android.support.constraint.ConstraintLayout>
