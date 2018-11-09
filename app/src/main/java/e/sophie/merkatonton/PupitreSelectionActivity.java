@@ -16,4 +16,8 @@ public class PupitreSelectionActivity extends AppCompatActivity {
     public void questions_poulpe (View view) {
         startActivity(new Intent(this, QuestionPoulpeActivity.class));
     }
+
+    public void home (View view) {
+        startActivity(new Intent(this, MainActivity.class));
+    }
 }

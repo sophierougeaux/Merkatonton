@@ -27,4 +27,8 @@ public class InscriptionActivity extends AppCompatActivity {
             startActivity(inscription_activity);
         }
     };
+
+    public void home (View view) {
+        startActivity(new Intent(this, MainActivity.class));
+    }
 }

@@ -23,4 +23,5 @@
         android:text="S'inscrire avec son e-mail"
         android:textAppearance="@style/TextAppearance.AppCompat.Title" />
 
+
 </android.support.constraint.ConstraintLayout>
